@@ -40,7 +40,7 @@ namespace GestureRecognition
             this.biggestContourBoundingRectangleLabel = new System.Windows.Forms.Label();
             this.squaredBiggestContourBoundingRectangleLabel = new System.Windows.Forms.Label();
             this.dataImageLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.biggestContourBoundingRectanglePictureBox = new System.Windows.Forms.PictureBox();
             this.squaredBiggestContourBoundingRectanglePictureBox = new System.Windows.Forms.PictureBox();
             this.dataImagePictureBox = new System.Windows.Forms.PictureBox();
             this.optionsGroupBox = new System.Windows.Forms.GroupBox();
@@ -65,7 +65,7 @@ namespace GestureRecognition
             ((System.ComponentModel.ISupportInitialize)(this.binaryImagePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contoursPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contourBoundingRectanglesPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biggestContourBoundingRectanglePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.squaredBiggestContourBoundingRectanglePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataImagePictureBox)).BeginInit();
             this.optionsGroupBox.SuspendLayout();
@@ -170,13 +170,13 @@ namespace GestureRecognition
             this.dataImageLabel.TabIndex = 10;
             this.dataImageLabel.Text = "label7";
             // 
-            // pictureBox1
+            // biggestContourBoundingRectanglePictureBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(831, 315);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 250);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.biggestContourBoundingRectanglePictureBox.Location = new System.Drawing.Point(831, 315);
+            this.biggestContourBoundingRectanglePictureBox.Name = "biggestContourBoundingRectanglePictureBox";
+            this.biggestContourBoundingRectanglePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.biggestContourBoundingRectanglePictureBox.TabIndex = 11;
+            this.biggestContourBoundingRectanglePictureBox.TabStop = false;
             // 
             // squaredBiggestContourBoundingRectanglePictureBox
             // 
@@ -374,7 +374,7 @@ namespace GestureRecognition
             this.Controls.Add(this.optionsGroupBox);
             this.Controls.Add(this.dataImagePictureBox);
             this.Controls.Add(this.squaredBiggestContourBoundingRectanglePictureBox);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.biggestContourBoundingRectanglePictureBox);
             this.Controls.Add(this.dataImageLabel);
             this.Controls.Add(this.squaredBiggestContourBoundingRectangleLabel);
             this.Controls.Add(this.biggestContourBoundingRectangleLabel);
@@ -392,7 +392,7 @@ namespace GestureRecognition
             ((System.ComponentModel.ISupportInitialize)(this.binaryImagePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contoursPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contourBoundingRectanglesPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biggestContourBoundingRectanglePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.squaredBiggestContourBoundingRectanglePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataImagePictureBox)).EndInit();
             this.optionsGroupBox.ResumeLayout(false);
@@ -421,7 +421,7 @@ namespace GestureRecognition
         private System.Windows.Forms.Label biggestContourBoundingRectangleLabel;
         private System.Windows.Forms.Label squaredBiggestContourBoundingRectangleLabel;
         private System.Windows.Forms.Label dataImageLabel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox biggestContourBoundingRectanglePictureBox;
         private System.Windows.Forms.PictureBox squaredBiggestContourBoundingRectanglePictureBox;
         private System.Windows.Forms.PictureBox dataImagePictureBox;
         private System.Windows.Forms.GroupBox optionsGroupBox;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m7IP2JkgwNdD43svp7wUJUJjCaXScQHoHTNSaGRH39VVs9lbGxQNnO42wh3XJGlgwJ720guiLLyj9ztX0io8Qw==",
+  "dgSpecHash": "SEbLc0G577i5OIGgqNdd5FMHNLToPL7As7Cbrc7KJUeo4ZD+9wuc0uUA1AhppeDBIaelVB89sw6rmAYvDjZAlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
+  "projectFilePath": "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sromakh\\.nuget\\packages\\emgu.cv\\4.5.5.4823\\emgu.cv.4.5.5.4823.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\emgu.cv.bitmap\\4.5.5.4823\\emgu.cv.bitmap.4.5.5.4823.nupkg.sha512",

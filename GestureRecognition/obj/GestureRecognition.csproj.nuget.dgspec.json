@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj": {}
+    "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj": {
+    "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
+        "projectUniqueName": "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
         "projectName": "GestureRecognition",
-        "projectPath": "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
+        "projectPath": "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
         "packagesPath": "C:\\Users\\sromakh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sromakh\\source\\repos\\GestureRecognition\\GestureRecognition\\obj\\",
+        "outputPath": "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
