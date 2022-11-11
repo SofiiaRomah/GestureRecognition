@@ -88,15 +88,16 @@ namespace GestureRecognition
             // 
             this.videoCapturePictureBox.Location = new System.Drawing.Point(15, 38);
             this.videoCapturePictureBox.Name = "videoCapturePictureBox";
-            this.videoCapturePictureBox.Size = new System.Drawing.Size(800, 650);
+            this.videoCapturePictureBox.Size = new System.Drawing.Size(800, 591);
             this.videoCapturePictureBox.TabIndex = 1;
             this.videoCapturePictureBox.TabStop = false;
+            this.videoCapturePictureBox.Click += new System.EventHandler(this.videoCapturePictureBox_Click);
             // 
             // binaryImagePictureBox
             // 
             this.binaryImagePictureBox.Location = new System.Drawing.Point(831, 38);
             this.binaryImagePictureBox.Name = "binaryImagePictureBox";
-            this.binaryImagePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.binaryImagePictureBox.Size = new System.Drawing.Size(246, 227);
             this.binaryImagePictureBox.TabIndex = 2;
             this.binaryImagePictureBox.TabStop = false;
             // 
@@ -113,7 +114,7 @@ namespace GestureRecognition
             // 
             this.contoursPictureBox.Location = new System.Drawing.Point(1100, 38);
             this.contoursPictureBox.Name = "contoursPictureBox";
-            this.contoursPictureBox.Size = new System.Drawing.Size(250, 250);
+            this.contoursPictureBox.Size = new System.Drawing.Size(246, 227);
             this.contoursPictureBox.TabIndex = 4;
             this.contoursPictureBox.TabStop = false;
             // 
@@ -121,7 +122,7 @@ namespace GestureRecognition
             // 
             this.contourBoundingRectanglesPictureBox.Location = new System.Drawing.Point(1368, 38);
             this.contourBoundingRectanglesPictureBox.Name = "contourBoundingRectanglesPictureBox";
-            this.contourBoundingRectanglesPictureBox.Size = new System.Drawing.Size(250, 250);
+            this.contourBoundingRectanglesPictureBox.Size = new System.Drawing.Size(246, 227);
             this.contourBoundingRectanglesPictureBox.TabIndex = 5;
             this.contourBoundingRectanglesPictureBox.TabStop = false;
             // 
@@ -174,7 +175,7 @@ namespace GestureRecognition
             // 
             this.biggestContourBoundingRectanglePictureBox.Location = new System.Drawing.Point(831, 315);
             this.biggestContourBoundingRectanglePictureBox.Name = "biggestContourBoundingRectanglePictureBox";
-            this.biggestContourBoundingRectanglePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.biggestContourBoundingRectanglePictureBox.Size = new System.Drawing.Size(246, 227);
             this.biggestContourBoundingRectanglePictureBox.TabIndex = 11;
             this.biggestContourBoundingRectanglePictureBox.TabStop = false;
             // 
@@ -182,7 +183,7 @@ namespace GestureRecognition
             // 
             this.squaredBiggestContourBoundingRectanglePictureBox.Location = new System.Drawing.Point(1100, 315);
             this.squaredBiggestContourBoundingRectanglePictureBox.Name = "squaredBiggestContourBoundingRectanglePictureBox";
-            this.squaredBiggestContourBoundingRectanglePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.squaredBiggestContourBoundingRectanglePictureBox.Size = new System.Drawing.Size(246, 227);
             this.squaredBiggestContourBoundingRectanglePictureBox.TabIndex = 12;
             this.squaredBiggestContourBoundingRectanglePictureBox.TabStop = false;
             // 
@@ -190,7 +191,7 @@ namespace GestureRecognition
             // 
             this.dataImagePictureBox.Location = new System.Drawing.Point(1368, 315);
             this.dataImagePictureBox.Name = "dataImagePictureBox";
-            this.dataImagePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.dataImagePictureBox.Size = new System.Drawing.Size(246, 227);
             this.dataImagePictureBox.TabIndex = 13;
             this.dataImagePictureBox.TabStop = false;
             // 
@@ -199,7 +200,7 @@ namespace GestureRecognition
             this.optionsGroupBox.Controls.Add(this.areContoursExternalCheckBox);
             this.optionsGroupBox.Controls.Add(this.binaryImageThresholdTrackBar);
             this.optionsGroupBox.Controls.Add(this.binaryImageThresholdTrackBarLabel);
-            this.optionsGroupBox.Location = new System.Drawing.Point(831, 587);
+            this.optionsGroupBox.Location = new System.Drawing.Point(831, 557);
             this.optionsGroupBox.Name = "optionsGroupBox";
             this.optionsGroupBox.Size = new System.Drawing.Size(787, 101);
             this.optionsGroupBox.TabIndex = 14;
@@ -240,9 +241,9 @@ namespace GestureRecognition
             this.recognitionOptionsGroupBox.Controls.Add(this.recognitionResultLabel);
             this.recognitionOptionsGroupBox.Controls.Add(this.imageToRecognizePictureBox);
             this.recognitionOptionsGroupBox.Controls.Add(this.imageToRecognizeLabel);
-            this.recognitionOptionsGroupBox.Location = new System.Drawing.Point(15, 709);
+            this.recognitionOptionsGroupBox.Location = new System.Drawing.Point(15, 671);
             this.recognitionOptionsGroupBox.Name = "recognitionOptionsGroupBox";
-            this.recognitionOptionsGroupBox.Size = new System.Drawing.Size(800, 339);
+            this.recognitionOptionsGroupBox.Size = new System.Drawing.Size(800, 332);
             this.recognitionOptionsGroupBox.TabIndex = 15;
             this.recognitionOptionsGroupBox.TabStop = false;
             this.recognitionOptionsGroupBox.Text = "groupBox2";
@@ -255,6 +256,7 @@ namespace GestureRecognition
             this.recognizeImageButton.TabIndex = 21;
             this.recognizeImageButton.Text = "button2";
             this.recognizeImageButton.UseVisualStyleBackColor = true;
+            this.recognizeImageButton.Click += new System.EventHandler(this.recognizeImageButton_Click);
             // 
             // captureImageToRecognizeButton
             // 
@@ -264,6 +266,7 @@ namespace GestureRecognition
             this.captureImageToRecognizeButton.TabIndex = 20;
             this.captureImageToRecognizeButton.Text = "button1";
             this.captureImageToRecognizeButton.UseVisualStyleBackColor = true;
+            this.captureImageToRecognizeButton.Click += new System.EventHandler(this.captureImageToRecognizeButton_Click);
             // 
             // recognitionResultTextBox
             // 
@@ -283,6 +286,7 @@ namespace GestureRecognition
             // 
             // imageToRecognizePictureBox
             // 
+            this.imageToRecognizePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imageToRecognizePictureBox.Location = new System.Drawing.Point(6, 51);
             this.imageToRecognizePictureBox.Name = "imageToRecognizePictureBox";
             this.imageToRecognizePictureBox.Size = new System.Drawing.Size(250, 250);
@@ -305,10 +309,10 @@ namespace GestureRecognition
             this.trainingOptionsGroupBox.Controls.Add(this.gestureNumberLabel);
             this.trainingOptionsGroupBox.Controls.Add(this.infoTextBox);
             this.trainingOptionsGroupBox.Controls.Add(this.infoLabel);
-            this.trainingOptionsGroupBox.Location = new System.Drawing.Point(834, 709);
+            this.trainingOptionsGroupBox.Location = new System.Drawing.Point(834, 671);
             this.trainingOptionsGroupBox.Name = "trainingOptionsGroupBox";
             this.trainingOptionsGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trainingOptionsGroupBox.Size = new System.Drawing.Size(784, 339);
+            this.trainingOptionsGroupBox.Size = new System.Drawing.Size(784, 332);
             this.trainingOptionsGroupBox.TabIndex = 16;
             this.trainingOptionsGroupBox.TabStop = false;
             this.trainingOptionsGroupBox.Text = "groupBox3";
@@ -321,6 +325,7 @@ namespace GestureRecognition
             this.startTrainingButton.TabIndex = 5;
             this.startTrainingButton.Text = "button4";
             this.startTrainingButton.UseVisualStyleBackColor = true;
+            this.startTrainingButton.Click += new System.EventHandler(this.startTrainingButton_Click);
             // 
             // stopTrainingButton
             // 
@@ -330,6 +335,7 @@ namespace GestureRecognition
             this.stopTrainingButton.TabIndex = 4;
             this.stopTrainingButton.Text = "button3";
             this.stopTrainingButton.UseVisualStyleBackColor = true;
+            this.stopTrainingButton.Click += new System.EventHandler(this.stopTrainingButton_Click);
             // 
             // gestureNumberComboBox
             // 
