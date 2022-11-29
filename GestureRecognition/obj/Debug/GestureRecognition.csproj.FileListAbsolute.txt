@@ -48,3 +48,5 @@ C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition
 C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition\obj\Debug\GestureRecognition.csproj.CopyComplete
 C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition\obj\Debug\GestureRecognition.exe
 C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition\obj\Debug\GestureRecognition.pdb
+C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition\bin\Debug\MathNet.Numerics.dll
+C:\Users\sromakh\University\master\diploma\GestureRecognition\GestureRecognition\bin\Debug\System.ValueTuple.dll

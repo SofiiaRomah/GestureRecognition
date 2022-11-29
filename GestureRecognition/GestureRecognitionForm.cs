@@ -9,7 +9,8 @@ using Emgu.CV.Structure;
 using Emgu.CV.Util;
 using GestureRecognition.Infrastructure;
 using GestureRecognition.Localization;
-using HandGesturesDataGenerator.Managers;
+using GestureRecognition.Managers;
+using GestureRecognition.NeuralNetwork;
 
 namespace GestureRecognition
 {
@@ -20,6 +21,8 @@ namespace GestureRecognition
         private bool _saveTrainingImageData;
         private TrainingImageDataManager _trainingImageDataManager;
         private CsvManager _trainDataCsvManager;
+        private NeuralNetwork.NeuralNetwork _neuralNetwork;
+        private CsvManager _testDataCsvManager;
 
         public GesturesRecognitionForm()
         {
@@ -32,6 +35,10 @@ namespace GestureRecognition
                 Constants.HAND_GESTURE_AREA_LOCATION_Y,
                 Constants.HAND_GESTURE_AREA_WIDTH,
                 Constants.HAND_GESTURE_AREA_HEIGHT);
+            _trainingImageDataManager = new TrainingImageDataManager(@"");
+            _trainDataCsvManager = new CsvManager(@"", "");
+            _testDataCsvManager = new CsvManager(@"", "");
+            _neuralNetwork = new NeuralNetwork.NeuralNetwork(4096, 200, 10, 0.1, 5);
             _saveTrainingImageData = false;
 
             SetGestureNumbersComboBoxValues();
@@ -156,7 +163,7 @@ namespace GestureRecognition
                                                 {
                                                     if (_saveTrainingImageData)
                                                     {
-                                                        //SaveTrainingImageData(dataImage);
+                                                        SaveTrainingImageData(dataImage);
                                                     }
 
                                                     DrawDataImage(dataImage);
@@ -305,6 +312,7 @@ namespace GestureRecognition
         {
             _saveTrainingImageData = true;
             SetTrainingButtonsIsEnabled();
+            _neuralNetwork.Train(_testDataCsvManager.ReadAllLines());
         }
 
         private void recognizeImageButton_Click(object sender, System.EventArgs e)
@@ -314,7 +322,7 @@ namespace GestureRecognition
                 using (var imageToRecognize = new Image<Gray, byte>(imageToRecognizePictureBox.Image.ToString())
                            .Resize(Constants.OUTPUT_DATA_IMAGE_SIDE_SIZE, Constants.OUTPUT_DATA_IMAGE_SIDE_SIZE, Inter.Linear))
                 {
-                    //var queryResult = _neuralNetwork.Query(GetImageByteArray(imageToRecognize));
+                    var queryResult = _neuralNetwork.Query(GetImageByteArray(imageToRecognize));
                 }
             }
         }

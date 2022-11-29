@@ -1,12 +1,12 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace HandGesturesDataGenerator.Managers
+namespace GestureRecognition.Managers
 {
     public class CsvManager
     {
-        private string _csvPath;
-        private string _fileName;
+        private readonly string _csvPath;
+        private readonly string _fileName;
 
         public CsvManager(string csvPath, string fileName)
         {
@@ -18,13 +18,13 @@ namespace HandGesturesDataGenerator.Managers
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine(line);
-            File.AppendAllText(string.Format(@"{0}\{1}.csv", _csvPath, _fileName),
+            File.AppendAllText($@"{_csvPath}\{_fileName}.csv",
                 stringBuilder.ToString());
         }
 
         public string[] ReadAllLines()
         {
-            return File.ReadAllLines(string.Format(@"{0}\{1}.csv", _csvPath, _fileName));
+            return File.ReadAllLines($@"{_csvPath}\{_fileName}.csv");
         }
     }
 }

@@ -2,11 +2,11 @@
 using Emgu.CV;
 using Emgu.CV.Structure;
 
-namespace HandGesturesDataGenerator.Managers
+namespace GestureRecognition.Managers
 {
     public class TrainingImageDataManager
     {
-        private string _imageDataPath;
+        private readonly string _imageDataPath;
 
         public TrainingImageDataManager(string imageDataPath)
         {

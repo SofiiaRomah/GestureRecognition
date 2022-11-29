@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GestureRecognition.GesturesRecognitionForm">
+    <Position X="1.75" Y="0.75" Width="3.5" />
+    <Members>
+      <Field Name="areContoursExternalCheckBox" Hidden="true" />
+      <Field Name="biggestContourBoundingRectangleLabel" Hidden="true" />
+      <Field Name="biggestContourBoundingRectanglePictureBox" Hidden="true" />
+      <Field Name="binaryImageLabel" Hidden="true" />
+      <Field Name="binaryImagePictureBox" Hidden="true" />
+      <Field Name="binaryImageThresholdTrackBar" Hidden="true" />
+      <Field Name="binaryImageThresholdTrackBarLabel" Hidden="true" />
+      <Field Name="captureImageToRecognizeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contourBoundingRectanglesLabel" Hidden="true" />
+      <Field Name="contourBoundingRectanglesPictureBox" Hidden="true" />
+      <Field Name="contoursLabel" Hidden="true" />
+      <Field Name="contoursPictureBox" Hidden="true" />
+      <Field Name="dataImageLabel" Hidden="true" />
+      <Field Name="dataImagePictureBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gestureNumberComboBox" Hidden="true" />
+      <Field Name="gestureNumberLabel" Hidden="true" />
+      <Field Name="imageToRecognizeLabel" Hidden="true" />
+      <Field Name="imageToRecognizePictureBox" Hidden="true" />
+      <Field Name="infoLabel" Hidden="true" />
+      <Field Name="infoTextBox" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="optionsGroupBox" Hidden="true" />
+      <Field Name="recognitionOptionsGroupBox" Hidden="true" />
+      <Field Name="recognitionResultLabel" Hidden="true" />
+      <Field Name="recognitionResultTextBox" Hidden="true" />
+      <Field Name="recognizeImageButton" Hidden="true" />
+      <Field Name="squaredBiggestContourBoundingRectangleLabel" Hidden="true" />
+      <Field Name="squaredBiggestContourBoundingRectanglePictureBox" Hidden="true" />
+      <Field Name="startTrainingButton" Hidden="true" />
+      <Field Name="stopTrainingButton" Hidden="true" />
+      <Field Name="trainingOptionsGroupBox" Hidden="true" />
+      <Field Name="videoCaptureLabel" Hidden="true" />
+      <Field Name="videoCapturePictureBox" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIkNAMuGiLQACASAoUyAQIICUUEAggMADAZwRBBEIEE=</HashCode>
+      <FileName>GestureRecognitionForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_neuralNetwork" />
+      <Field Name="_trainingImageDataManager" />
+      <Field Name="_testDataCsvManager" />
+      <Field Name="_trainDataCsvManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GestureRecognition.NeuralNetwork.NeuralNetwork" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAIAAgAABAAAAAAAAAgAAAgAEAAAAIAAAAA=</HashCode>
+      <FileName>NeuralNetwork\NeuralNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GestureRecognition.Managers.TrainingImageDataManager" Collapsed="true">
+    <Position X="6" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\TrainingImageDataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GestureRecognition.Managers.CsvManager" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAQAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\CsvManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

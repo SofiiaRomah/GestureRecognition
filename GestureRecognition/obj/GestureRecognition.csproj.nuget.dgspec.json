@@ -45,6 +45,10 @@
             "Emgu.CV.runtime.windows": {
               "target": "Package",
               "version": "[4.5.5.4823, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           }
         }

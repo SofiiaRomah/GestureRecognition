@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SEbLc0G577i5OIGgqNdd5FMHNLToPL7As7Cbrc7KJUeo4ZD+9wuc0uUA1AhppeDBIaelVB89sw6rmAYvDjZAlA==",
+  "dgSpecHash": "sCg0XwPKRg0jJI8T9vj68Na6eFtKUeoXfduJnH7satjr7BrICkaGucnAb5Yeixfm9ekqIZPI0MN3jBM4xnVEag==",
   "success": true,
   "projectFilePath": "C:\\Users\\sromakh\\University\\master\\diploma\\GestureRecognition\\GestureRecognition\\GestureRecognition.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,12 @@
     "C:\\Users\\sromakh\\.nuget\\packages\\emgu.cv.runtime.windows\\4.5.5.4823\\emgu.cv.runtime.windows.4.5.5.4823.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x64\\19.29.30138\\emgu.runtime.windows.msvc.rt.x64.19.29.30138.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x86\\19.29.30138\\emgu.runtime.windows.msvc.rt.x86.19.29.30138.nupkg.sha512",
+    "C:\\Users\\sromakh\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\sromakh\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
-    "C:\\Users\\sromakh\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
+    "C:\\Users\\sromakh\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\sromakh\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

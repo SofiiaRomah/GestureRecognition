@@ -64,6 +64,7 @@
     </Compile>
     <Compile Include="Managers\CsvManager.cs" />
     <Compile Include="Managers\TrainingImageDataManager.cs" />
+    <Compile Include="NeuralNetwork\NeuralNetwork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GestureRecognitionForm.resx">
@@ -84,6 +85,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,6 +110,9 @@
     </PackageReference>
     <PackageReference Include="Emgu.CV.runtime.windows">
       <Version>4.5.5.4823</Version>
+    </PackageReference>
+    <PackageReference Include="MathNet.Numerics">
+      <Version>5.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />

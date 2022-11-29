@@ -289,7 +289,7 @@ namespace GestureRecognition
             this.imageToRecognizePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imageToRecognizePictureBox.Location = new System.Drawing.Point(6, 51);
             this.imageToRecognizePictureBox.Name = "imageToRecognizePictureBox";
-            this.imageToRecognizePictureBox.Size = new System.Drawing.Size(250, 250);
+            this.imageToRecognizePictureBox.Size = new System.Drawing.Size(246, 227);
             this.imageToRecognizePictureBox.TabIndex = 17;
             this.imageToRecognizePictureBox.TabStop = false;
             // 
